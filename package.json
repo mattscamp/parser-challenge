@@ -1,0 +1,22 @@
+{
+  "name": "playlab-parser",
+  "version": "0.0.1",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin",
+    "spec": "./spec"
+  },
+  "main": "./lib/index.js",
+  "author": "Matthew Camp <mattscamp@gmail.com>",
+  "engines": [
+    "node"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "description": "A parser for Playlab challenge.",
+  "dependencies": {
+    "mocha": "*",
+    "event-stream": "*"
+  }
+}
